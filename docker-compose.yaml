@@ -1,7 +1,7 @@
 version: '2'
 services:
   nis:
-    image: "nem-nis:0.6.96"
+    image: "ryuyangu/nem"
     ports:
     - "7890:7890"
     volumes:
