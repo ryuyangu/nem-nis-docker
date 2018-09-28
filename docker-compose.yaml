@@ -9,9 +9,9 @@ services:
     environment:
     - "NEM_NETWORK=testnet"
     - "NIS_ADDITIONAL_LOCAL_IPS=192.168.1.4"
-    - "NEM_MAX_THREADS=64"
+    - "NEM_MAX_THREADS=200"
     - "NIS_SHOULD_AUTO_HARVEST_ON_BOOT=false"
-    - "NEM_JAVA_MEMORY=1024"
+    - "NEM_JAVA_MEMORY=2800M"
     restart: on-failure
 
 volumes:
